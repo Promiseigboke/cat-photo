@@ -1,2 +1,2 @@
 # freecodecamp-projects
-This is where all my freecodecamp projects are located.
+This is my first freecodecamp project. Cat photo project.
