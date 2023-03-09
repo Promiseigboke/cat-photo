@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    height: 5vh;
+    background-color: #edecec;
+}
+.image-section {
+     background-image: url("images/cat3.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 45vh; 
+     width: 100vw;                                                                                                                                                                                                                                                                                                                                                                        ;
+}
