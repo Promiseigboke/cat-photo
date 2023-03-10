@@ -4,8 +4,69 @@
     box-sizing: border-box;
 }
 .header {
-    height: 5vh;
+    height: 7vh;
     background-color: #edecec;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+}
+.favicon1 {
+    width: 1.9vw;
+    margin-top: -10px;
+    margin-right: 5px;
+}
+.favicon-text {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    margin: -20px 0 1px 0;
+    font-weight: 700;
+}
+.top-shapes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 20rem;
+}
+.shape1 {
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 2px solid rgb(114, 110, 110);
+    margin: -0.4rem 1rem 0rem 0rem;
+}
+.shape2 {
+    background-color: whitesmoke;
+    border: 2px solid rgb(114, 110, 110);
+    margin: 0.4rem 1rem 0.1rem 0rem;
+    padding: 5px 10px;
+}
+.shape3 {
+    background-color: whitesmoke;
+    border: 2px solid rgb(114, 110, 110);
+    padding: 10px 7px;
+    margin-top: -0.3rem;
+}
+.cancel {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.cancel::before,
+.cancel::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2px;
+    height: 10px;
+    background-color: red;
+}
+
+.cancel::before {
+    transform: translate(-)
 }
 .image-section {
      background-image: url("images/cat3.jpg");
