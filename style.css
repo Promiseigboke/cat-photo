@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+}
 .header {
-    height: 7vh;
+    height: 8vh;
     background-color: #edecec;
     display: flex;
     flex-direction: row;
@@ -13,41 +18,43 @@
     padding: 20px;
 }
 .favicon1 {
-    width: 1.9vw;
-    margin-top: -10px;
-    margin-right: 5px;
+    width: 1.5vw;
+    margin: -0.3vw 0.3vw 0 0;
 }
 .favicon-text {
-    font-size: 1.8rem;
+    font-size: 1.5vw;
     line-height: 1.5;
-    margin: -20px 0 1px 0;
-    font-weight: 700;
+    margin: -0.7vw 0 1vw 0;
+    font-weight: 545;
 }
 .top-shapes {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-left: 20rem;
+    margin-left: 28vw;
 }
 .shape1 {
     background-color: whitesmoke;
-    padding: 10px;
+    padding: 0.9vw 0.8vw;
     border: 2px solid rgb(114, 110, 110);
-    margin: -0.4rem 1rem 0rem 0rem;
+    margin: -0.5vw 1vw 0vw 0vw;
 }
 .shape2 {
     background-color: whitesmoke;
     border: 2px solid rgb(114, 110, 110);
-    margin: 0.4rem 1rem 0.1rem 0rem;
-    padding: 5px 10px;
+    margin: 0.3rem 1vw 0.1vw 0vw;
+    padding: 0.5vw 0.79vw;
 }
 .shape3 {
     background-color: whitesmoke;
     border: 2px solid rgb(114, 110, 110);
     padding: 10px 7px;
-    margin-top: -0.3rem;
+    margin: -0.3rem 1vw 0.1vw 0vw;
 }
+/*.shape1 p, .shape2 p, .shape3 p {
+    margin: -6px;
+} */
 .cancel {
     position: relative;
     display: inline-block;
@@ -66,7 +73,7 @@
 }
 
 .cancel::before {
-    transform: translate(-)
+    transform: translate()
 }
 .image-section {
      background-image: url("images/cat3.jpg");
