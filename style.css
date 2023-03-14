@@ -32,7 +32,9 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-left: 28vw;
+    margin-left: 32vw;
+    margin-top: -0.5vh;
+    font-weight: bolder;
 }
 .shape1 {
     background-color: whitesmoke;
@@ -53,13 +55,13 @@ body {
     margin: -0.3rem 1vw 0.1vw 0vw;
 }
 .shape1 p {
-    margin: -0.6vw 0vw -2.1vw 0vw;
+    margin: -0.3vw 0vw -2.1vw 0vw;
 } 
 .shape2 p {
     margin: -1vw -1vw -1vw -0.7vw;
 }
 .shape3 p {
-    margin: -1vw -1vw -9vw -0.4vw;
+    margin: -0.5vw -0.5vw -3vw -0.4vw;
     text-align: center;
 }
 .cancel {
@@ -80,8 +82,13 @@ body {
 }
 
 .cancel::before {
-    transform: translate()
+    transform: translate(-50%, -50%)
+    rotate(45deg);
 }
+.cancel::after {
+    transform: translate(-50%, -50%)
+    rotate(-45deg);
+} 
 .image-section {
      background-image: url("images/cat3.jpg");
      background-position: center;
