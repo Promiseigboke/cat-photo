@@ -6,7 +6,8 @@
 }
 body {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 1rem;
+    font-size: 1vw;
+    background-color: #fbfbfb;
 }
 .header {
     height: 8vh;
@@ -23,24 +24,24 @@ body {
    color: white;
    font-size: larger;
    font-weight: 700;
-   padding: 0.25vw 0.5vw;
-   margin: -0.5vw 0.3vw 0vw 0vw;
-   border-radius: 0.2vw 0.8vw 0.2vw 0.2vw;
+   padding: 0.25vh 0.5vw;
+   margin: -0.5vh 0.3vw 0vh 0vw;
+   border-radius: 0.2vh 0.8vw 0.2vh 0.2vw;
 }
 .favicon-text {
     font-size: 1.5vw;
     line-height: 1.5;
-    margin: -0.4vw 0 1vw 0;
+    margin: -0.4vh 0 1vh 0;
     font-weight: 600;
 }
 .phone-icon {
     width: 3vw;
     height: 6vh;
-    margin: -1vw 0vw 0vw 35vw;
+    margin: -1vh 0vw 0vh 35vw;
 }
 .cancel-icon {
     width: 2vw;
-    margin: -0.7vw 1vw 0vw 46vw;
+    margin: -0.7vh 1vw 0vh 46vw;
 }
 .image-section1 {
      background-image: url("images/cat3.jpg");
@@ -50,3 +51,19 @@ body {
      height: 45vh; 
      width: 100vw;                                                                                                                                                                                                                                                                                                                                                                        ;
 }
+.third-section div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    background-color: white;
+}
+.third-section div ul:nth-child(1) {
+    width: 20vw;
+    height: 20vh;
+    border: 1px solid black;
+   border-radius: 1vw;
+   position: relative;
+   top: -10vh;
+   z-index: 1;
+   margin: 0vh 5vw 5vh 15vw;
+} 
