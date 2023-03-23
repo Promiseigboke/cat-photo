@@ -57,7 +57,7 @@ body {
     flex-wrap: wrap; 
     background-color: white;
 }
-.third-section div ul:nth-child(1) {
+.third-section div:nth-child(1) {
     width: 20vw;
     height: 20vh;
     border: 1px solid black;
