@@ -49,21 +49,34 @@ body {
      background-repeat: no-repeat;
      background-size: cover;
      height: 45vh; 
-     width: 100vw;                                                                                                                                                                                                                                                                                                                                                                        ;
+     width: 100vw;                                                                                                                                                                                                                                                                                                                                                                 ;
+}
+.third-section {
+    display: flex;
+    margin: auto;
+    width: 70vw;
+    flex-wrap: wrap;
+    row-gap: 5vh;
+    column-gap: 3vw;
+    position: relative;
+    top: -10vh;
 }
 .third-section div {
+    flex: 50%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; 
+    flex-direction: column;
+    padding: 8vh 7vw;
+    max-width: 30vw;
+    max-height: 35vh;
+    align-items: center;
+    row-gap: 2vh;
+    border-radius: 2em;
     background-color: white;
+     box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.15);
 }
-.third-section div:nth-child(1) {
-    width: 20vw;
-    height: 20vh;
-    border: 1px solid black;
-   border-radius: 1vw;
-   position: relative;
-   top: -10vh;
-   z-index: 1;
-   margin: 0vh 5vw 5vh 15vw;
-} 
+.third-section div h3 {
+   
+}
+.third-section div ul {
+    max-width: 20vw;
+}
